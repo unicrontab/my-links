@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import icons from './icons';
+import icons from '../icons';
 
 const LinkContainer = styled.div`
     padding: 5px;
@@ -21,10 +21,11 @@ const Link = styled.a`
     grid-row: 1;
 `;
 const Icon = styled.svg`
+
 `;
 
 const createLink = (url, icon, color) => (
-    <Link href={url}>
+    <Link key={url} href={url}>
         <Icon
             width="20" 
             height="20" 

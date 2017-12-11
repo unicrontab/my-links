@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "lint": "eslint lib/**; exit 0",
-    "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "build": "babel src -d build",
+    "lint": "eslint src/**; exit 0",
+    "lint:watch": "esw -w src/**",
+    "prepublish": "npm run build",
+    "docs:server": "styleguidist server",
+    "docs:build": "styleguidist build"
   },
   "repository": {
     "type": "git",
@@ -20,12 +22,15 @@
   },
   "homepage": "https://github.com/unicrontab/my-links#readme",
   "dependencies": {
+    "D": "^1.0.0",
+    "jest": "^21.2.1",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.13.0",
@@ -37,6 +42,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-styleguidist": "^6.0.33",
     "styled-components": "^2.2.4"
   }
 }
