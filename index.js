@@ -1,2 +1,2 @@
-import Links from './Links';
-export default Links;
+const Links = require('./build');
+module.exports = Links;
