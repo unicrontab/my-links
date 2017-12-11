@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n    padding-right: 5px;\n    padding-top: 5px;\n    display: grid;\n    width: calc(100vw);\n    transition: transform 0.2s ease-in-out;\n    justify-content: end;\n    justify-items: end;\n    align-items: center;\n'], ['\n    padding-right: 5px;\n    padding-top: 5px;\n    display: grid;\n    width: calc(100vw);\n    transition: transform 0.2s ease-in-out;\n    justify-content: end;\n    justify-items: end;\n    align-items: center;\n']),
+var _templateObject = _taggedTemplateLiteral(['\n    padding: 5px;\n    display: grid;\n    transition: transform 0.2s ease-in-out;\n    justify-content: end;\n    justify-items: end;\n    align-items: center;\n'], ['\n    padding: 5px;\n    display: grid;\n    transition: transform 0.2s ease-in-out;\n    justify-content: end;\n    justify-items: end;\n    align-items: center;\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n    padding: 0.2rem;\n    width: 25px;\n    height: 25px;\n    &:hover {\n        transform: scale(1.4);\n    }\n    grid-row: 1;\n'], ['\n    padding: 0.2rem;\n    width: 25px;\n    height: 25px;\n    &:hover {\n        transform: scale(1.4);\n    }\n    grid-row: 1;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n'], ['\n']);
 
